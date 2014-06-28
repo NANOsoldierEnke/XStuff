@@ -1,0 +1,9 @@
+    {
+        "type": "MOD_INFO",
+        "mod-type": "SUPPLEMENTAL",
+        "ident": "xstuff",
+        "name": "XStuff",
+		"author": "Enke",
+        "description": "Adds all sorts of stuff",
+        "path": ""
+    }

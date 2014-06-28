@@ -1,0 +1,343 @@
+[
+	{
+        "type" : "ammunition_type",
+        "id" : "nailshot",
+        "name" : "none",
+        "default" : ""
+	},
+	{
+	"type" : "BOOK",
+	"id" : "notebook_nail",
+	"name" : "nail notebook",
+	"max_level" : 1,
+	"description" : "A small notebook with some drawings of stuff that can be done with nails. Worth a read if you have extra nails around. It also includes some scribblings on nail guns as well.",
+	"weight" : 45,
+	"to_hit" : 0,
+	"color" : "light_green",
+	"intelligence" : 6,
+	"symbol" : "?",
+	"material" : ["paper", "null"],
+	"volume" : 1,
+	"bashing" : -4,
+	"cutting" : 0,
+	"time" : 30,
+	"fun" : 0,
+	"skill" : "fabrication",
+	"price" : 1000,
+	"required_level" : 0,
+	"chapters": 1
+	},
+	{
+    "type":"GENERIC",
+    "id": "nailball",
+    "symbol": "*",
+    "color": "cyan",
+    "name": "nail ball",
+    "description": "A handful of nails taped together with the nails facing outwards. Makes a nice throwing weapon.",
+    "price": 50,
+    "material": "iron",
+    "weight": 150,
+    "volume": 1,
+    "bashing": 4,
+    "cutting": 6,
+    "to_hit": 0
+	},
+	{
+	"type" : "recipe",
+	"result": "nailball",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_RANGED",
+	"skill_used": "fabrication",
+	"difficulty": 0,
+	"time": 1000,
+	"reversible": true,
+	"autolearn": false,
+	"book_learn": [[ "notebook_nail", 1 ]],
+	"components": [
+		[
+			[ "duct_tape", 50 ]
+		],
+		[
+			[ "nail", 10 ]
+		]
+	]
+	},
+	{
+	"id": "shotgun_sawn_barrel",
+	"type" : "GENERIC",
+	"symbol": "|",
+	"color": "brown",
+	"name": "sawn-off shotgun barrel",
+	"description": "The barrel of a shotgun has been sawn off. May make a decent melee weapon in a pinch.",
+	"price": 5000,
+	"material": "iron",
+	"weight": 1586,
+	"volume": 3,
+	"bashing": 7,
+	"cutting": 0,
+	"to_hit": 2
+	},
+	{
+	"type" : "recipe",
+	"result": "shotgun_sawn_barrel",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_BASHING",
+	"skill_used": "fabrication",
+	"difficulty": 0,
+	"time": 2000,
+	"reversible": false,
+	"autolearn": true,
+	"qualities":[
+		{"id":"SAW_M_FINE","level":1,"amount":1}
+		],
+	"components": [
+		[
+			[ "shotgun_d", 1 ],
+			[ "shotgun_s", 1 ],
+			[ "remington_870", 1 ],
+			[ "mossberg_500", 1 ]
+		]
+	]
+	},
+	{
+	"id": "shotgun_nail",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "red",
+    "name": "nail shotgun",
+    "description": "By outfitting a shotgun barrel to your nail gun, you can fire a spread of nails at short range to do some decent damage. It's pretty quiet too; guess that's a bonus.",
+    "price": 20000,
+    "material": "iron",
+    "flags": ["RELOAD_ONE", "NEVER_JAMS"],
+    "skill": "shotgun",
+    "ammo": "nailshot",
+    "weight": 5690,
+    "volume": 6,
+    "bashing": 10,
+    "cutting": 0,
+    "to_hit": -1,
+    "ranged_damage": 4,
+    "range": 0,
+    "dispersion": 32,
+    "recoil": 5,
+    "durability": 4,
+    "burst": 0,
+    "clip_size": 1,
+    "reload": 175,
+    "valid_mod_locations": [[ "accessories", 2 ],[ "grip", 1 ],[ "rail", 1 ],[ "stock", 1 ]]
+	},
+	{
+	"type" : "AMMO",
+	"id" : "nailshot",
+	"category" : "spare_parts",
+	"price" : 1000,
+	"name" : "nail shot",
+	"symbol" : "=",
+	"color" : "cyan",
+	"description" : "A handful of nails bundled together to produce ammunition that spreads like other forms of shot.",
+	"material" : "iron",
+	"volume" : 1,
+	"weight" : 1,
+	"bashing" : 0,
+	"cutting" : 2,
+	"to_hit" : 0,
+	"ammo_type" : "nailshot",
+	"casing" : "NULL",
+	"damage" : 4,
+	"pierce" : 3,
+	"range" : 3,
+	"dispersion" : 32,
+	"recoil" : 5,
+	"count" : 1,
+	"stack_size" : 1,
+	"effects" : ["COOKOFF", "SHOT", "NEVER_MISFIRES"]
+	},
+	{
+	"type" : "recipe",
+	"result": "nailshot",
+	"category": "CC_AMMO",
+	"subcategory": "CSC_AMMO_BULLETS",
+	"skill_used": "fabrication",
+	"skills_required": [ "gun", 2 ],
+	"difficulty": 3,
+	"time": 2500,
+	"reversible": false,
+	"autolearn": false,
+	"book_learn": [[ "notebook_nail", 1 ]],
+	"tools": [
+		[
+			[ "press", -1 ]
+		]
+	],
+	"components": [
+		[
+			[ "nail", 5 ]
+		],
+		[
+			[ "paper", 3 ]
+		],
+		[
+			[ "gunpowder", 50 ]
+		]
+	]
+	},
+	{
+	"type":"GENERIC",
+	"id" : "alunailbat",
+	"symbol" : "(",
+	"color" : "light_gray",
+	"name" : "aluminum nail bat",
+	"description" : "With the power of welding, you fashioned some nails to an aluminum bat, giving it some serious power. You also took the opportunity to add some scrap metal to the bat, making it slightly heavier.",
+	"weight" : 955,
+	"to_hit" : 3,
+	"material" : ["steel", "null"],
+	"techniques" : ["WBLOCK_1", "BRUTAL"],
+	"flags" : ["DURABLE_MELEE", "CHOP"],
+	"volume" : 8,
+	"bashing" : 22,
+	"cutting" : 8,
+	"price" : 17500
+	},
+	{
+	"type" : "recipe",
+	"result": "alunailbat",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_BASHING",
+	"skill_used": "fabrication",
+	"skills_required": [[ "mechanics", 2 ], [ "fabrication", 2 ]],
+	"difficulty": 1,
+	"time": 2500,
+	"reversible": false,
+	"autolearn": false,
+	"book_learn": [[ "notebook_nail", 1]],
+	"tools": [
+		[
+			[ "goggles_welding", -1 ]
+		],
+		[
+			[ "welder", 15 ],
+			[ "welder_crude", 20 ],
+			[ "toolset", 2 ]
+		]
+	],
+	"components": [
+		[
+			[ "nail", 10 ]
+		],
+		[
+			[ "bat_metal", 1 ]
+		]
+	]
+	},
+	{
+	"id": "splintergun",
+	"type": "GUN",
+	"symbol": "(",
+	"color": "brown",
+	"description": "A nailgun that has been modified to hold and fire wooden splinters. Ready....Aim....",
+	"name": "splintergun",
+	"price": 18000,
+	"material": ["plastic", "wood"],
+	"flags": "MODE_BURST",
+	"skill": "rifle",
+	"ammo": "splintammo",
+	"weight": 4458,
+	"volume": 4,
+	"bashing": 12,
+	"cutting": 0,
+	"to_hit": -2,
+	"ranged_damage": 0,
+	"range": 2,
+	"dispersion": 32,
+	"recoil": 0,
+	"durability": 8,
+	"burst": 5,
+	"clip_size": 50,
+	"reload": 300
+	},
+	{
+	"type" : "AMMO",
+	"id" : "splinters",
+	"category" : "spare_parts",
+	"price" : 75,
+	"name" : "wooden splinters",
+	"symbol" : "=",
+	"color" : "brown",
+	"description" : "A box of wooden splinters. Still not usable for much.",
+	"material" : "wood",
+	"volume" : 1,
+	"weight" : 2,
+	"bashing" : 0,
+	"cutting" : 1,
+	"to_hit" : 0,
+	"ammo_type" : "splintammo",
+	"casing" : "NULL",
+	"damage" : 6,
+	"pierce" : 2,
+	"range" : 6,
+	"dispersion" : 22,
+	"recoil" : 1,
+	"count" : 100
+	},
+	{
+	"type" : "ammunition_type",
+	"id" : "splintammo",
+	"name" : "none",
+	"default" : ""
+	},
+	{
+	"type" : "recipe",
+	"result": "splinters",
+	"category": "CC_AMMO",
+	"subcategory": "CSC_AMMO_OTHER",
+	"skill_used": "fabrication",
+	"skills_required": [ "fabrication", 1 ],
+	"difficulty": 1,
+	"time": 15000,
+	"reversible": false,
+	"autolearn": true,
+	"qualities" : [
+		{"id":"CUT","level":1,"amount":1}
+	],
+	"components": [
+		[
+			[ "splinter", 10 ],
+			[ "stick", 4 ],
+			[ "2x4", 1 ]
+		]
+	]
+	},
+	{
+	"type" : "recipe",
+	"result": "splintergun",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_RANGED",
+	"skill_used": "fabrication",
+	"skills_required": [ "mechanics", 2],
+	"difficulty" : 1,
+	"time" : 10000,
+	"reversible" : true,
+	"autolearn" : false,
+	"book_learn" : [[ "notebook_nail", 1]],
+	"qualities" : [
+		{"id":"CUT","level":1,"amount":1}
+	],
+	"tools" : [
+		[
+			[ "welder", 10 ],
+			[ "welder_crude", 15]
+		]
+	],
+	"components" : [
+		[
+			[ "nailgun", 1 ]
+		],
+		[
+			[ "pipe", 2 ]
+		],
+		[
+			[ "2x4", 1 ]
+		]
+	]
+	}
+]
