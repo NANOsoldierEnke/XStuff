@@ -442,8 +442,8 @@
     "id": "pvc",
     "symbol": "/",
     "color": "white",
-    "name": "PVC Pipe",
-    "description": "A piece of PVC Pipe. Might come in handy for some impromptu constructions, although without the ability to bend it, it won't be of much use.",
+    "name": "PVC pipe",
+    "description": "A piece of PVC pipe. Might come in handy for some impromptu constructions, although without the ability to bend it, it won't be of much use.",
     "price": 2500,
     "material": "plastic",
     "weight": 250,
@@ -451,5 +451,187 @@
     "bashing": 8,
     "cutting": 1,
     "to_hit": 2
+	},
+	{
+	"type" : "AMMO",
+	"id" : "ammopvc",
+	"category" : "spare_parts",
+	"price" : 3000,
+	"name" : "PVC shards",
+	"symbol" : "=",
+	"color" : "white",
+	"description" : "A box of segments PVC pipe that have been cut into small shards. These are small enough to be fired from a nailgun.",
+	"material" : "plastic",
+	"volume" : 1,
+	"weight" : 2,
+	"bashing" : 1,
+	"cutting" : 0,
+	"to_hit" : 0,
+	"ammo_type" : "nail",
+	"casing" : "NULL",
+	"damage" : 6,
+	"pierce" : 4,
+	"range" : 5,
+	"dispersion" : 32,
+	"recoil" : 3,
+	"count" : 100
+	},
+	{
+	"type": "recipe",
+	"result": "ammopvc",
+	"category" : "CC_AMMO",
+	"subcategory" : "CSC_AMMO_OTHER",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": 10000,
+	"reversible": false,
+	"autolearn": true,
+	"qualities":[
+		{"id":"HAMMER","level":1,"amount":1},
+		{"id":"SAW_M_FINE","level":1,"amount":1}
+	],
+	"components": [
+		[
+			["pvc", 1]
+		]
+	]
+	},
+	{
+	"type" : "material",
+	"ident" : "superfabric",
+	"name" : "Super-Fabric",
+	"bash_resist" : 1,
+	"cut_resist" : 4,
+	"bash_dmg_verb" : "ripped",
+        "cut_dmg_verb" : "cut",
+        "dmg_adj" : [
+            "ripped",
+            "torn",
+            "shredded",
+            "tattered"
+        ],
+        "acid_resist" : 1,
+        "elec_resist" : 2,
+        "fire_resist" : 0,
+        "density" : 3
+    },
+	{
+	"type" : "ARMOR",
+	"id" : "supershirt",
+	"name" : "E&T shirt",
+	"weight" : 110,
+	"color" : "white",
+	"covers" : ["TORSO"],
+	"to_hit" : 0,
+	"storage" : 1,
+	"symbol" : "[",
+	"description" : "An Estilo & Thames T-shirt.",
+	"price" : 14000,
+	"material" : ["superfabric", "null"],
+	"volume" : 2,
+	"cutting" : 0,
+	"warmth" : 11,
+	"phase" : "solid",
+	"environmental_protection" : 1,
+	"encumbrance" : 0,
+	"bashing" : -5,
+	"flags" : ["VARSIZE"],
+	"coverage" : 90,
+	"material_thickness" : 1
+	},
+	{
+	"type" : "ARMOR",
+	"id" : "superpants",
+	"name" : "E&T pants",
+	"weight" : 450,
+	"color" : "brown",
+	"covers" : ["LEGS"],
+	"to_hit" : 0,
+	"storage" : 4,
+	"symbol" : "[",
+	"description" : "A pair of Estilo & Thames pants.",
+	"price" : 15000,
+	"material" : ["superfabric", "null"],
+	"volume" : 6,
+	"cutting" : 0,
+	"warmth" : 20,
+	"phase" : "solid",
+	"environmental_protection" : 2,
+	"encumbrance" : 0,
+	"bashing" : -4,
+	"flags" : ["VARSIZE", "POCKETS"],
+	"coverage" : 90,
+	"material_thickness" : 2
+	},
+	{
+    "type":"GENERIC",
+    "id": "chitin_sword",
+    "symbol": "(",
+    "color": "green",
+    "name": "chitin sword",
+    "description": "A sword made from chitin. It is very light.",
+    "price": 15000,
+    "material": "chitin",
+    "weight": 214,
+    "volume": 4,
+    "bashing": 3,
+    "cutting": 12,
+    "to_hit": 1
+	},
+	{
+    "type" : "recipe",
+	"result": "chitin_sword",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_CUTTING",
+	"skill_used": "fabrication",
+	"difficulty": 2,
+	"time": 5000,
+	"reversible": false,
+	"autolearn": true,
+	"qualities":[
+		{"id":"CUT","level":1,"amount":1}
+	],
+	"components": [
+		[
+			[ "chitin_piece", 6 ]
+		]
+	]
+	},
+	{
+	"type":"GENERIC",
+    "id": "pvc_spear",
+    "symbol": "(",
+    "color": "white",
+    "name": "PVC spear",
+    "description": "A short spear made from sharpened PVC pipe.",
+    "price": 5000,
+    "material": "plastic",
+    "weight": 431,
+    "volume": 7,
+    "bashing": 5,
+    "cutting": 18,
+    "to_hit": 1
+	},
+	{
+	"type" : "recipe",
+	"result": "pvc_spear",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_CUTTING",
+	"skill_used": "fabrication",
+	"difficulty": 2,
+	"time": 4000,
+	"reversible": false,
+	"autolearn": true,
+	"qualities":[
+		{"id":"CUT","level":1,"amount":1}
+	],
+	"components": [
+		[
+			[ "pvc", 2 ]
+		],
+		[
+			[ "duct_tape", 30 ]
+		]
+	]
 	}
 ]

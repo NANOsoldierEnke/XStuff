@@ -3,7 +3,28 @@
 	"type" : "item_group",
 	"id" : "livingroom",
 	"items":[
-		["notebook_nail", 75]
+		["notebook_nail", 50],
+		["superpants", 35],
+		["supershirt", 35],
+		["motobike_boots", 10],
+		["motobike_pants", 15],
+		["motobike_armor", 10],
+		["modular_helmet", 5]
+	]
+	},
+	{
+	"type" : "item_group",
+	"id" : "mechanics",
+	"items":[
+		["notebook_nail", 10],
+		["pvc", 13]
+	]
+	},
+	{
+	"type" : "item_group",
+	"id" : "road",
+	"items":[
+		["pvc", 5]
 	]
 	}
 ]
