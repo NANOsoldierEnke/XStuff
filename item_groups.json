@@ -24,7 +24,17 @@
 	"type" : "item_group",
 	"id" : "road",
 	"items":[
-		["pvc", 5]
+		["pvc", 5],
+		["enketoken", 2],
+		["critmedictoken", 2],
+		["slaxtoken", 2]
+	]
+	},
+	{
+	"type" : "item_group",
+	"id" : "pawn",
+	"items":[
+		["interpol_9mm", 8]
 	]
 	}
 ]

@@ -566,17 +566,19 @@
 	{
     "type":"GENERIC",
     "id": "chitin_sword",
-    "symbol": "(",
+    "symbol": "/",
     "color": "green",
     "name": "chitin sword",
     "description": "A sword made from chitin. It is very light.",
     "price": 15000,
     "material": "chitin",
     "weight": 214,
-    "volume": 4,
+    "volume": 6,
     "bashing": 3,
     "cutting": 12,
-    "to_hit": 1
+    "to_hit": 1,
+	"flags" : ["CHOP"],
+    "techniques": ["WBLOCK_1"]
 	},
 	{
     "type" : "recipe",
@@ -600,7 +602,7 @@
 	{
 	"type":"GENERIC",
     "id": "pvc_spear",
-    "symbol": "(",
+    "symbol": "/",
     "color": "white",
     "name": "PVC spear",
     "description": "A short spear made from sharpened PVC pipe.",
@@ -631,6 +633,189 @@
 		],
 		[
 			[ "duct_tape", 30 ]
+		]
+	]
+	},
+	{
+	"id": "interpol_9mm",
+	"type": "GUN",
+	"symbol": "(",
+	"color": "light_gray",
+	"name": "IP X-32",
+	"description": "The INTERPOL X-32 pistol was the standard sidearm of the International Police since its development in 2032.",
+	"price": 175000,
+	"material": ["steel", "plastic"],
+	"skill": "pistol",
+	"ammo": "9mm",
+	"weight": 800,
+	"volume": 2,
+	"bashing": 6,
+	"cutting": 0,
+	"to_hit": -1,
+	"ranged_damage": -1,
+	"range": 2,
+	"dispersion": 10,
+	"recoil": 3,
+	"durability": 11,
+	"burst": 3,
+	"clip_size": 12,
+	"reload": 225,
+	"valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "magazine", 2 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
+	"flags": ["MODE_BURST"]
+	},
+	{
+	"type":"GENERIC",
+	"id": "spiky_chitin_sword",
+	"symbol" : "/",
+	"color": "light_green",
+	"name": "spiky chitin sword",
+	"description": "Truly a fearsome creation, this chitin sword with attached bee stingers is a deadly weapon in the hands of trained professionals. And also in the hands of untrained professionals, provided that they like insects.",
+	"material": "chitin",
+	"price": 5000,
+	"volume": 7,
+	"weight": 854,
+	"bashing": 3,
+	"cutting": 22,
+	"to_hit": 1,
+	"flags" : ["CHOP"],
+    "techniques": ["WBLOCK_1"]
+	},
+	{
+	"type" : "recipe",
+	"result": "spiky_chitin_sword",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_CUTTING",
+	"skill_used": "fabrication",
+	"difficulty": 3,
+	"time": 2500,
+	"reversible": false,
+	"autolearn": true,
+	"qualities":[
+		{"id":"CUT","level":1,"amount":1},
+		{"id":"HAMMER","level":1,"amount":1}
+	],
+	"components": [
+		[
+			[ "chitin_piece", 6 ]
+		],
+		[
+			[ "bee_sting", 5],
+			[ "fighter_sting", 10],
+			[ "wasp_sting", 5]
+		]
+	]
+	},
+	{
+    "type":"GENERIC",
+    "id" : "bone_dagger",
+    "name" : "bone dagger",
+    "description" : "A bone that has been whittled down to a sharp point. Neither durable nor strong, but better than nothing.",
+    "weight" : 75,
+    "to_hit" : 2,
+    "color" : "dark_gray",
+    "symbol" : "/",
+    "material" : ["bone", "null"],
+    "volume" : 1,
+    "bashing" : 2,
+    "cutting" : 5,
+    "flags" : ["STAB", "UNARMED_WEAPON"],
+    "price" : 100,
+    "qualities": [["CUT", 1]]
+    },
+	{
+	"type" : "recipe",
+	"result": "bone_dagger",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_CUTTING",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": 2500,
+	"reversible": false,
+	"autolearn": true,
+	"qualities":[
+		{"id":"CUT","level":1,"amount":1}
+	],
+	"components": [
+		[
+			[ "bone", 1 ]
+		]
+	]
+	},
+	{ 
+	"type":"GENERIC",
+    "id": "sword_spike",
+    "symbol" : "/",
+    "color": "light_gray",
+    "name": "spiky bat",
+    "description": "A spiky bat. It's kinda scary-looking. This wooden bat has had a few spikes attached to it, thus making it more akin to a clunky mace.",
+    "material": ["wood", "steel"],
+    "price": 500,
+    "volume": 7,
+    "weight": 2650,
+    "bashing": 16,
+    "cutting": 7,
+    "to_hit": 0,
+    "flags" : ["BRUTAL"],
+    "techniques": ["WBLOCK_1"]
+    },
+    {
+	"type" : "recipe",
+	"result": "sword_spike",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_BASHING",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": 6550,
+	"reversible": false,
+	"autolearn": true,
+	"qualities":[
+		{"id":"HAMMER","level":1,"amount":1}
+	],
+	"components": [
+		[
+			[ "bat", 1 ]
+		],
+		[
+			[ "spike", 7 ]
+		]
+	]
+	},
+	{ 
+	"type":"GENERIC",
+    "id": "bat_blade",
+    "symbol" : "/",
+    "color": "brown",
+    "name": "bladed bat",
+    "description": "A bat with a bayonet attached to it. No kidding.",
+    "material": ["wood", "steel"],
+    "price": 1500,
+    "volume": 8,
+    "weight": 1320,
+    "bashing": 12,
+    "cutting": 12,
+    "to_hit": 0,
+    "flags" : ["BRUTAL"],
+    "techniques": ["WBLOCK_1"]
+    },
+	{
+	"type" : "recipe",
+	"result": "bat_blade",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_BASHING",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": 4100,
+	"reversible": false,
+	"autolearn": true,
+	"qualities":[
+		{"id":"SAW_M_FINE","level":1,"amount":1}
+	],
+	"components": [
+		[
+			[ "bat", 1 ]
+		],
+		[
+			[ "bayonet", 1 ]
 		]
 	]
 	}
