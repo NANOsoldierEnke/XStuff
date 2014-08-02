@@ -40,7 +40,7 @@
 		"ident" : "rifle_hunter",
 		"name" : "Rifle Hunter",
 		"description" : "Your buddies knew you as the guy who always wanted to get out in the woods and shoot deer. They mocked you for your trapping and rifle skills. You'd laugh at them now, but they're all dead.",
-		"points" : 3,
+		"points" : 2,
 		"skills" : [
 			{
 				"level": 1,
@@ -245,7 +245,7 @@
 				"sw_619",
 				"knife_combat",
 				"canteen",
-				"9mm"
+				"38"
             ],
             "male": [
 				"briefs"
