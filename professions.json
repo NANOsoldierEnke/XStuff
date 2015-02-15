@@ -40,7 +40,7 @@
         "ident": "spelunker",
         "name": "Spelunker",
         "description": "You always liked going into caves and exploring around, and when the cataclysm hit you were lucky enough to be coming back from a trip.",
-        "points": 1,
+        "points": 2,
         "skills": [
             {
                 "level": 2,
@@ -75,7 +75,7 @@
         "ident": "cowboy",
         "name": "Cowboy",
         "description": "You always wore a 10-Gallon hat, and now your trusty revolver might just save you from the zombies.",
-        "points": 2,
+        "points": 3,
         "skills": [
             {
                 "level": 3,
@@ -184,7 +184,7 @@
         "ident": "powerplantworker",
         "name": "Power Plant Worker",
         "description": "You worked at the power plants before the Cataclysm, and your skills may come in handy later, assuming you survive first.",
-        "points": 1,
+        "points": 2,
         "skills": [
             {
                 "level": 3,
@@ -218,7 +218,7 @@
         "ident": "bionicboxer",
         "name": "Bionic Boxer",
         "description": "A washed-up boxer, you were a sure bet until you were disqualified from the competition due to your \"enhancements\". Show them that cheaters will prosper!",
-        "points": 2,
+        "points": 3,
         "skills": [
             {
                 "level": 3,
@@ -252,7 +252,7 @@
         "ident": "daredevil",
         "name": "Daredevil",
         "description": "You always had to get that rush of adrenaline, and you just couldn't keep away from danger. You'll be getting plenty of adrenaline now.",
-        "points": 2,
+        "points": 1,
         "skills": [
             {
                 "level": 1,
@@ -269,7 +269,6 @@
 				"helmet_bike",
 				"socks",
 				"sneakers",
-				"switchblade",
 				"rope_30",
 				"backpack"
             ],
@@ -320,7 +319,7 @@
         "points": -1,
         "skills": [
             {
-                "level": 1,
+                "level": 3,
                 "name": "barter"
             },
 			{
@@ -332,7 +331,6 @@
             "both": [
 				"tshirt",
 				"jeans",
-				"pockknife",
 				"socks",
 				"sneakers"
             ],
@@ -380,7 +378,7 @@
         "ident": "samurai",
         "name": "Samurai",
         "description": "Hi-Keeyah!",
-        "points": 4,
+        "points": 2,
         "skills": [
             {
                 "level": 2,

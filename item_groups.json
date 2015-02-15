@@ -44,5 +44,14 @@
 	"items":[
 		["interpol_9mm", 4]
 	]
+	},
+	{
+	"type" : "item_group",
+	"id" : "survivorweapons",
+	"items":[
+		["survivorcrowbar", 10],
+		["nailball", 18],
+		["nailshot", 14],
+		["splintergun", 12]
 	}
 ]
