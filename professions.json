@@ -1,76 +1,6 @@
 [
 	{
         "type": "profession",
-        "ident": "entrepreneur",
-        "name": "Entrepreneur",
-        "description": "You were a budding businessman before the Cataclysm, selling what you claimed was the healthiest water around. Too bad money's worthless now.",
-        "points": 0,
-        "skills": [
-            {
-                "level": 2,
-                "name": "speech"
-            },
-			{
-				"level": 2,
-				"name": "barter"
-			}
-        ],
-        "items": {
-            "both": [
-				"suit",
-				"dress_shoes",
-				"socks",
-				"money_bundle",
-				"water_clean",
-				"water_clean",
-				"mag_barter"
-            ],
-            "male": [
-                "briefs",
-				"skinny_tie"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-		"type" : "profession",
-		"ident" : "rifle_hunter",
-		"name" : "Rifle Hunter",
-		"description" : "Your buddies knew you as the guy who always wanted to get out in the woods and shoot deer. They mocked you for your trapping and rifle skills. You'd laugh at them now, but they're all dead.",
-		"points" : 2,
-		"skills" : [
-			{
-				"level": 1,
-				"name": "traps"
-			},
-			{
-				"level": 2,
-				"name": "rifle"
-			}
-		],
-		"items" : {
-			"both": [	
-				"backpack",
-				"jeans",
-				"army_top",
-				"socks",
-				"boots",
-				"marlin_9a"
-			],
-			"male": [
-				"briefs"
-			],
-			"female": [
-				"bra",
-				"panties"
-			]
-		}
-	},
-	{
-        "type": "profession",
         "ident": "miner",
         "name": "Miner",
         "description": "You worked in the mines before you immigrated to New England. Even though you couldn't find a job, you kept your pickaxe, flashlight, tool belt, and hardhat. Looks like they'll come in handy.",
@@ -107,47 +37,9 @@
 	},
 	{
         "type": "profession",
-        "ident": "delinquent",
-        "name": "Delinquent",
-        "description": "You didn't do well in school, and before long you were in Juvy. None of that matters now, though. You managed to steal a purse from a classmate immediately before the cataclysm, and pilfered a dead policeman's gun soon after.",
-        "points": 1,
-        "skills": [
-            {
-                "level": 2,
-                "name": "unarmed"
-            },
-			{
-				"level": 1,
-				"name": "pistol"
-			},
-			{
-				"level": 1,
-				"name": "speech"
-			}
-        ],
-        "items": {
-            "both": [
-				"jeans",
-				"hoodie",
-				"socks",
-				"sneakers",
-				"crackpipe",
-				"purse",
-				"usp_9mm"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-				"bra",
-				"panties"
-            ]
-        }
-	},{
-        "type": "profession",
         "ident": "spelunker",
         "name": "Spelunker",
-        "description": "You always liked going into caves and exploring around, and when the cataclysm hit you were lucky enough to be in the cave.",
+        "description": "You always liked going into caves and exploring around, and when the cataclysm hit you were lucky enough to be coming back from a trip.",
         "points": 1,
         "skills": [
             {
@@ -168,47 +60,6 @@
 				"flashlight",
 				"rope_30",
 				"hat_hard"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-				"bra",
-				"briefs"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "factoryworker",
-        "name": "Factory Worker",
-        "description": "While surprised that your years in a factory didn't kill you, you can't help but appreciate the irony.",
-        "points": 2,
-        "skills": [
-            {
-                "level": 2,
-                "name": "carpentry"
-            },
-			{
-				"level": 1,
-				"name": "fabrication"
-			},
-			{
-				"level": 3,
-				"name": "mechanics"
-			}
-        ],
-        "items": {
-            "both": [
-				"jeans",
-				"socks",
-				"sneakers",
-				"tank_top",
-				"wrench",
-				"glasses_safety",
-				"welder",
-				"goggles_welding",
-				"chestrig"
             ],
             "male": [
 				"briefs"
@@ -245,7 +96,7 @@
 				"sw_619",
 				"knife_combat",
 				"canteen",
-				"38"
+				"38_special"
             ],
             "male": [
 				"briefs"
@@ -253,135 +104,6 @@
             "female": [
                 "bra",
 				"boy_shorts"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "camper",
-        "name": "Camper",
-        "description": "You liked going off by yourself and camping in the woods. The skills you learned in the woods should come in handy.",
-        "points": 2,
-        "skills": [
-            {
-                "level": 3,
-                "name": "survival"
-            },
-			{
-				"level": 2,
-				"name": "fabrication"
-			},
-			{
-				"level": 2,
-				"name": "firstaid"
-			}
-        ],
-        "items": {
-            "both": [
-				"duffelbag",
-				"jacket_leather",
-				"shorts",
-				"tshirt",
-				"socks",
-				"boots_survivor",
-				"pockknife",
-				"towel",
-				"can_corn"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "biggestfan",
-        "name": "Biggest Fan",
-        "description": "You were always found in your mom's basement. According to Darwin, you shouldn't have survived. But you did.",
-        "points": -2,
-        "skills": [
-            {
-                "level": 1,
-                "name": "computer"
-            },
-			{
-				"level": 1,
-				"name": "electronics"
-			}
-        ],
-        "items": {
-            "both": [
-				"tshirt",
-				"shorts",
-				"socks",
-				"sneakers",
-				"mag_gaming"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "bookworm",
-        "name": "Bookworm",
-        "description": "You always had you head in a book. People said that you'd never amount to anything, but all that reading has filled your head with good knowledge. You'll also have plenty of time to read the books you never got around to.",
-        "points": 2,
-        "skills": [
-            {
-                "level": 1,
-                "name": "computer"
-            },
-			{
-				"level": 2,
-				"name": "carpentry"
-			},
-			{
-				"level": 1,
-				"name": "driving"
-			},
-			{
-				"level": 2,
-				"name": "fabrication"
-			},
-			{
-				"level": 2,
-				"name": "firstaid"
-			},
-			{
-				"level": 2,
-				"name": "melee"
-			}
-        ],
-        "items": {
-            "both": [
-				"mag_mechanics",
-				"mag_barter",
-				"manual_cutting",
-				"mag_pistol",
-				"poetry_book",
-				"backpack",
-				"tshirt",
-				"pants",
-				"socks",
-				"sneakers",
-				"pockknife"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
             ]
         }
 	},
@@ -423,7 +145,7 @@
         "type": "profession",
         "ident": "megamanwannabe",
         "name": "Megaman Wannabe",
-        "description": "You loved the games. You had them all. You even went so far as to have a fusion blaster CBM installed in your arm. And your parents said it was useless, that you'll never get to use it. WHO'S LAUGING NOW, HUH?",
+        "description": "You loved the games. You had them all. You even went so far as to have a fusion blaster CBM installed in your arm. And your parents said it was useless; that you'll never get to use it. WHO'S LAUGHING NOW, HUH?",
         "points": 3,
 		"CBMs": [
 			"bio_blaster",
@@ -459,162 +181,9 @@
 	},
 	{
         "type": "profession",
-        "ident": "middleagedperson",
-        "name": "Middle Aged Person",
-        "description": "You would be busy having a mid-life crisis, but there's bigger fish to fry now.",
-        "points": 0,
-        "skills": [
-            {
-                "level": 1,
-                "name": "bashing"
-            },
-			{
-				"level": 2,
-				"name": "driving"
-			}
-        ],
-        "items": {
-            "both": [
-				"golf_club",
-				"pocketwatch",
-				"jacket_leather",
-				"tshirt",
-				"pants_cargo",
-				"socks",
-				"sneakers"
-            ],
-            "male": [
-				"briefs",
-				"lawnmower"
-            ],
-            "female": [
-                "bra",
-				"panties",
-				"purse"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "mayor",
-        "name": "Mayor",
-        "description": "You were the town mayor, and although you were never very popular, you didn't have many enemies either. Maybe you could try some anti-zombie legislation.",
-        "points": 0,
-        "skills": [
-            {
-                "level": 3,
-                "name": "speech"
-            },
-			{
-				"level": 1,
-				"name": "barter"
-			}
-        ],
-        "items": {
-            "both": [
-				"suit",
-				"pocketwatch",
-				"tophat",
-				"socks",
-				"dress_shoes"
-            ],
-            "male": [
-				"boxer_shorts"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "jogger",
-        "name": "Jogger",
-        "description": "You loved to run, and with all the zombies around, you'll still get to do it a lot.",
-        "points": -1,
-        "skills": [
-            {
-                "level": 2,
-                "name": "dodge"
-            }
-        ],
-        "items": {
-            "both": [
-				"shorts_cargo",
-				"army_top",
-				"socks",
-				"sneakers",
-				"mp3"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"boy_shorts"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "cannabisgrower",
-        "name": "Dealer",
-        "description": "You grew and sold certain, er, illicit substances before the Cataclysm. Maybe someday you'll find someone willing to buy it.",
-        "points": 0,
-        "skills": [
-            {
-                "level": 1,
-                "name": "barter"
-            }
-        ],
-        "items": {
-            "both": [
-				"money_bundle",
-				"lighter",
-				"crackpipe",
-				"weed",
-				"weed",
-				"tshirt",
-				"pants",
-				"socks",
-				"sneakers"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "furrylarper",
-        "name": "Furry LARPer",
-        "description": "You were all set to go over to your friend's house and do some LARPing, but now you don't know if you'll ever see him again.",
-        "points": -2,
-        "items": {
-            "both": [
-				"wolfsuit",
-				"tshirt",
-				"shorts"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
         "ident": "powerplantworker",
         "name": "Power Plant Worker",
-        "description": "You worked at the power plants before the Cataclysm, and your skills may come in handy later, assuming you survive first...",
+        "description": "You worked at the power plants before the Cataclysm, and your skills may come in handy later, assuming you survive first.",
         "points": 1,
         "skills": [
             {
@@ -648,7 +217,7 @@
         "type": "profession",
         "ident": "bionicboxer",
         "name": "Bionic Boxer",
-        "description": "A washed-up boxer, you did great until you were disqualified from the competition due to your \"enhancements\". Show them that cheaters will prosper!",
+        "description": "A washed-up boxer, you were a sure bet until you were disqualified from the competition due to your \"enhancements\". Show them that cheaters will prosper!",
         "points": 2,
         "skills": [
             {
@@ -680,153 +249,9 @@
 	},
 	{
         "type": "profession",
-        "ident": "lieutenant",
-        "name": "Lieutenant",
-        "description": "You were all set to take command when the Cataclysm hit. At least you still have your gun and your commanding presence.",
-        "points": 2,
-        "skills": [
-            {
-                "level": 2,
-                "name": "speech"
-            },
-			{
-				"level": 2,
-				"name": "smg"
-			}
-        ],
-        "items": {
-            "both": [
-				"army_top",
-				"beret",
-				"jacket_leather",
-				"pants",
-				"socks",
-				"boots",
-				"pda",
-				"uzi",
-				"pockknife"
-            ],
-            "male": [
-				"boxer_shorts"
-            ],
-            "female": [
-                "bra",
-				"boy_shorts"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "improviser",
-        "name": "Improviser",
-        "description": "You could always find a new application for something, a skill that will no doubt serve you well.",
-        "points": 2,
-        "skills": [
-            {
-                "level": 2,
-                "name": "carpentry"
-            },
-			{
-				"level": 2,
-				"name": "fabrication"
-			},
-			{
-				"level": 2,
-				"name": "mechanics"
-			}
-        ],
-        "items": {
-            "both": [
-				"tshirt",
-				"pants",
-				"socks",
-				"sneakers",
-				"nailrifle",
-				"bayonet",
-				"crude_picklock",
-				"makeshift_knife"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "pharmacist",
-        "name": "Pharmacist",
-        "description": "Yeah, the Zombies refuse to take their meds too. Maybe you'll find a group of survivors soon...",
-        "points": 0,
-        "skills": [
-            {
-                "level": 2,
-                "name": "cooking"
-            },
-			{
-				"level": 1,
-				"name": "barter"
-			}
-        ],
-        "items": {
-            "both": [
-				"coat_lab",
-				"pants",
-				"socks",
-				"sneakers",
-				"aspirin",
-				"bandages"
-            ],
-            "male": [
-				"dress_shirt",
-				"briefs"
-            ],
-            "female": [
-                "sundress",
-				"bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "prototypeandroid",
-        "name": "Prototype Android",
-        "description": "You were the latest and greatest model, and just a few weeks before the final model was set to be in production, the Cataclysm struck.",
-        "points": 3,
-        "items": {
-            "both": [
-				"pants",
-				"sneakers",
-				"battery",
-				"battery",
-				"battery"
-            ],
-            "male": [
-				"tshirt"
-            ],
-            "female": [
-                "dress"
-            ]
-        },
-		"CBMs": [
-			"bio_batteries",
-			"bio_blood_anal",
-			"bio_power_storage_mkII",
-			"bio_tools",
-			"bio_storage",
-			"bio_hydraulics",
-			"bio_recycler"
-		]
-	},
-	{
-        "type": "profession",
         "ident": "daredevil",
         "name": "Daredevil",
-        "description": "You always had to get that rush of adrenaline, and you just couldn't keep away from danger.",
+        "description": "You always had to get that rush of adrenaline, and you just couldn't keep away from danger. You'll be getting plenty of adrenaline now.",
         "points": 2,
         "skills": [
             {
@@ -859,75 +284,9 @@
 	},
 	{
         "type": "profession",
-        "ident": "assassin",
-        "name": "Assassin",
-        "description": "You were a hired killer; a master of disguise. You always got the job done. But the day you were told to kill a man near the evac shelter was you lucky day, as that was the day of the Cataclysm",
-        "points": 2,
-        "skills": [
-            {
-                "level": 3,
-                "name": "dodge"
-            },
-			{
-				"level": 1,
-				"name": "melee"
-			}
-        ],
-        "items": {
-            "both": [
-				"switchblade",
-				"tonfa",
-				"dress_shirt",
-				"pants",
-				"socks",
-				"sneakers",
-				"jacket_leather"
-            ],
-            "male": [
-				"boxer_shorts"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        },
-		"CBMs": [
-			"bio_power_storage"
-		]
-	},
-	{
-        "type": "profession",
-        "ident": "millionaire",
-        "name": "Millionaire",
-        "description": "You were the wealthiest man in town, but not even you could buy your way out of the apocalypse. These damn zombies even stole you Rolls Royce!",
-        "points": 0,
-        "skills": [
-            {
-                "level": 2,
-                "name": "barter"
-            }
-        ],
-        "items": {
-            "both": [
-				"suit",
-				"dress_shoes",
-				"socks",
-				"tophat",
-				"cane"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "corset"
-            ]
-        }
-	},
-	{
-        "type": "profession",
         "ident": "bartender",
         "name": "Bartender",
-        "description": "You owned a small bar, and you loved your job. Now that your cash flow has stopped, you may begin to take desperate measures. Maybe the zombies like booze...",
+        "description": "You owned a small bar, and you loved your job. Now that your cash flow has stopped, you may begin to take desperate measures. Do zombies like booze?",
         "points": 0,
         "skills": [
             {
@@ -955,93 +314,6 @@
 	},
 	{
         "type": "profession",
-        "ident": "swordsman",
-        "name": "Swordsman",
-        "description": "Your affinity for the ancient art of sword fighting will serve you well.",
-        "points": 2,
-        "skills": [
-            {
-                "level": 2,
-                "name": "melee"
-            },
-			{
-				"level": 2,
-				"name": "dodge"
-			}
-        ],
-        "items": {
-            "both": [
-				"sword_forged",
-				"tshirt",
-				"pants_cargo",
-				"socks",
-				"sneakers"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "homemaker",
-        "name": "Homemaker",
-        "description": "It's not much, but your life of housework may serve you well.",
-        "points": -1,
-        "items": {
-            "both": [
-				"mop",
-				"socks",
-				"sneakers"
-            ],
-            "male": [
-				"briefs",
-				"tshirt",
-				"jeans"
-            ],
-            "female": [
-                "bra",
-				"panties",
-				"dress"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "vandal",
-        "name": "Vandal",
-        "description": "Heh. Guess you got pretty lucky, being out to graffiti the evac shelter and all. At least you're safe for now.",
-        "points": 0,
-        "skills": [
-			{
-				"level": 1,
-				"name": "barter"
-			}
-        ],
-        "items": {
-            "both": [
-				"spray_can",
-				"permanent_marker",
-				"tshirt",
-				"hoodie",
-				"socks",
-				"sneakers"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
         "ident": "roleplayer",
         "name": "Roleplayer",
         "description": "Maybe you'll happen across a +5 tommy gun of zombie slaying.",
@@ -1063,132 +335,6 @@
 				"pockknife",
 				"socks",
 				"sneakers"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "vacationer",
-        "name": "Vacationer",
-        "description": "Dammit! Every time you want to go on vacation something crappy happens! Now you'll never get to the beach! Oh, and they ate your family, but more importantly, YOU'LL NEVER GET TO THE BEACH!",
-        "points": 1,
-        "items": {
-            "both": [
-				"roadmap",
-				"tshirt",
-				"shorts",
-				"backpack",
-				"sneakers",
-				"socks"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "archaeologist",
-        "name": "Archaeologist",
-        "description": "Unfortunately, a college education in imprinted rocks will not come in handy during the end of the world. Dammit.",
-        "points": 1,
-        "items": {
-            "both": [
-				"pickaxe",
-				"mag_mechanics",
-				"hat_hard",
-				"tshirt",
-				"pants",
-				"socks",
-				"sneakers",
-				"mbag"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "barbarian",
-        "name": "Barbarian",
-        "description": "Where the hell are you?! You were just ready to go after the Amulet of Yendor when you found yourself in this strange evac shelter.",
-        "points": 0,
-        "skills": [
-            {
-                "level": 3,
-                "name": "melee"
-            }
-        ],
-        "items": {
-            "both": [
-				"sword_crude",
-				"cloak_fur",
-				"helmet_chitin"
-            ],
-			"female": [
-				"bra"
-			]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "captaincaveman",
-        "name": "Caveman",
-        "description": "Dug not understand. Dug want Amulet of Yendor. Dug angry at dead-walkers. DUG ANGRY!",
-        "points": 0,
-        "skills": [
-            {
-                "level": 1,
-                "name": "melee"
-            },
-			{
-				"level": 3,
-				"name": "survival"
-			}
-        ],
-        "items": {
-            "both": [
-				"loincloth_fur",
-				"stick"
-			],
-			"female": [
-				"bra"
-			]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "healer",
-        "name": "Healer",
-        "description": "Where are you? Where are the Dungeons of Doom? And why are there so many zombies around?",
-        "points": -1,
-        "skills": [
-            {
-                "level": 2,
-                "name": "firstaid"
-            }
-        ],
-        "items": {
-            "both": [
-				"cloak",
-				"boots",
-				"q_staff"
             ],
             "male": [
 				"briefs"
@@ -1231,147 +377,10 @@
 	},
 	{
         "type": "profession",
-        "ident": "monk",
-        "name": "Monk",
-        "description": "You had trained for years to enter the Dungeons of Doom for Shan Lai Ching, and now you're gods-know-where. Hopefully your training will serve you well.",
-        "points": 0,
-        "skills": [
-            {
-                "level": 2,
-                "name": "melee"
-            },
-			{
-				"level": 1,
-				"name": "bashing"
-			}
-        ],
-        "items": {
-            "both": [
-				"q_staff",
-				"cloak",
-				"boots",
-				"gloves_leather"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "priest",
-        "name": "Priest",
-        "description": "Ummm... methinks the zombies won't listen to your sermon very well. On the other hand... yeek. The other hand... Holy Crap!",
-        "points": -1,
-        "skills": [
-			{
-				"level": 4,
-				"name": "speech"
-			}
-        ],
-        "items": {
-            "both": [
-				"suit",
-				"skinny_tie",
-				"pants",
-				"socks",
-				"dress_shoes"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "rogue",
-        "name": "Rogue",
-        "description": "Now where the hell are the Dungeons of Doom? Where's the amulet? Where in the world are you? Say, those look a lot like kobold zombies, only less kobold... Crud.",
-        "points": 0,
-        "skills": [
-            {
-                "level": 2,
-                "name": "swimming"
-            },
-			{
-				"level": 4,
-				"name": "dodge"
-			}
-        ],
-        "items": {
-            "both": [
-				"knife_combat",
-				"cloak",
-				"tshirt",
-				"socks",
-				"boots"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "ranger",
-        "name": "Ranger",
-        "description": "Whoa, these strange bows they have in the future are amazing! Maybe you'll find a way to take it back to my dimension.",
-        "points": 1,
-        "skills": [
-            {
-                "level": 2,
-                "name": "dodge"
-            },
-			{
-				"level": 2,
-				"name": "survival"
-			},
-			{
-				"level": 4,
-				"name": "archery"
-			}
-        ],
-        "items": {
-            "both": [
-				"cloak",
-				"hat_cotton",
-				"shortbow",
-				"mbag",
-				"arrow_fire_hardened",
-				"arrow_fire_hardened",
-				"arrow_fire_hardened",
-				"arrow_fire_hardened",
-				"arrow_fire_hardened",
-				"arrow_fire_hardened",
-				"arrow_fire_hardened"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
         "ident": "samurai",
         "name": "Samurai",
         "description": "Hi-Keeyah!",
-        "points": 1,
+        "points": 4,
         "skills": [
             {
                 "level": 2,
@@ -1400,103 +409,9 @@
 	},
 	{
         "type": "profession",
-        "ident": "tourist",
-        "name": "Tourist",
-        "description": "You'd much rather be touring the dungeons of doom, but it doesn't appear that you'll be able to anytime soon",
-        "points": -1,
-        "skills": [
-            {
-                "level": 2,
-                "name": "driving"
-            },
-			{
-				"level": 2,
-				"name": "speech"
-			}
-        ],
-        "items": {
-            "both": [
-				"polo_shirt",
-				"pants",
-				"cash_card",
-				"golf_club",
-				"mbag",
-				"socks",
-				"sneakers"
-            ],
-            "male": [
-				"briefs",
-				"undershirt"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "valkyrie",
-        "name": "Valkyrie",
-        "description": "You didn't think that there was anything special about that glowing rock. This is what you get for not thinking on top of your game",
-        "points": 1,
-        "skills": [
-            {
-                "level": 3,
-                "name": "cutting"
-            },
-			{
-				"level": 1,
-				"name": "archery"
-			}
-        ],
-        "items": {
-            "both": [
-				"sword_forged",
-				"boots_plate",
-				"gloves_plate",
-				"armor_lightplate",
-				"helmet_barbute"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
-        "ident": "wizard",
-        "name": "Wizard",
-        "description": "By the dark arts...",
-        "points": -1,
-        "skills": [
-            {
-                "level": 2,
-                "name": "gun"
-            }
-        ],
-        "items": {
-            "both": [
-				"cloak",
-				"q_staff",
-				"leathersandals",
-				"fanny"
-            ],
-            "male": [
-				"briefs"
-            ],
-            "female": [
-                "bra",
-				"panties"
-            ]
-        }
-	},
-	{
-        "type": "profession",
         "ident": "terminator",
         "name": "T-1000",
-        "description": "Looks like you picked the wrong guy to assasinate at the wrong time.",
+        "description": "The Schwarzenegger-ization of the Cataclysm is now complete.",
         "points": 3,
         "skills": [
             {
@@ -1534,7 +449,7 @@
         "type": "profession",
         "ident": "bguard",
         "name": "Bionic Guard",
-        "description": "You beat out the competition with a set of bionic enhancements, making employers practically fall over themslves to hire you. Equipped with the latest in bionic and security technology, you were prepared to handle any criminal. Unfortunately, your job description didn't include zombies.",
+        "description": "You beat out the competition with a set of bionic enhancements, making employers practically fall over themselves to hire you. Equipped with the latest in bionic and security technology, you were prepared to handle any criminal. Unfortunately, your job description didn't include zombies.",
         "points": 3,
         "skills": [
             {

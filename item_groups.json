@@ -3,9 +3,8 @@
 	"type" : "item_group",
 	"id" : "livingroom",
 	"items":[
-		["notebook_nail", 50],
-		["superpants", 35],
-		["supershirt", 35],
+		["etpants", 35],
+		["etshirt", 35],
 		["motobike_boots", 10],
 		["motobike_pants", 15],
 		["motobike_armor", 10],
@@ -16,8 +15,9 @@
 	"type" : "item_group",
 	"id" : "mechanics",
 	"items":[
-		["notebook_nail", 10],
-		["pvc", 13]
+		["notebook_nail", 7],
+		["pvc", 13],
+		["smallcrowbar", 3]
 	]
 	},
 	{
@@ -25,17 +25,24 @@
 	"id" : "road",
 	"items":[
 		["pvc", 5],
-		["enketoken", 2],
+		["enketoken", 1],
 		["critmedictoken", 2],
-		["slaxtoken", 2],
-		["vanigotoken", 2]
+		["slaxtoken", 2]
 	]
 	},
 	{
 	"type" : "item_group",
 	"id" : "pawn",
 	"items":[
-		["interpol_9mm", 8]
+		["interpol_9mm", 2],
+		["survivorcrowbar", 4]
+	]
+	},
+	{
+	"type" : "item_group",
+	"id" : "prison_weapons",
+	"items":[
+		["interpol_9mm", 4]
 	]
 	}
 ]

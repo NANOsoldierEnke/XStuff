@@ -10,7 +10,7 @@
 	"id" : "notebook_nail",
 	"name" : "nail notebook",
 	"max_level" : 1,
-	"description" : "A small notebook with some drawings of stuff that can be done with nails. Worth a read if you have extra nails around. It also includes some scribblings on nail guns as well.",
+	"description" : "A small notebook with some drawings of constructions that can be created with nails. Worth a read if you have extra nails around. It also includes some scribblings on nail guns as well.",
 	"weight" : 45,
 	"to_hit" : 0,
 	"color" : "light_green",
@@ -68,7 +68,7 @@
 	"symbol": "|",
 	"color": "brown",
 	"name": "sawn-off shotgun barrel",
-	"description": "The barrel of a shotgun has been sawn off. May make a decent melee weapon in a pinch.",
+	"description": "The sawn-off barrel of a shotgun. May make a decent melee weapon in a pinch.",
 	"price": 5000,
 	"material": "iron",
 	"weight": 1586,
@@ -105,7 +105,7 @@
     "symbol": "(",
     "color": "red",
     "name": "nail shotgun",
-    "description": "By outfitting a shotgun barrel to your nail gun, you can fire a spread of nails at short range to do some decent damage. It's pretty quiet too; guess that's a bonus.",
+    "description": "By outfitting a shotgun barrel to your nail gun, you can fire a spread of nails at short range to do some decent damage. It's pretty quiet too. Guess that's a bonus.",
     "price": 20000,
     "material": "iron",
     "flags": ["RELOAD_ONE", "NEVER_JAMS"],
@@ -186,7 +186,7 @@
 	"id" : "alunailbat",
 	"symbol" : "(",
 	"color" : "light_gray",
-	"name" : "aluminum nail bat",
+	"name" : "aluminium nail bat",
 	"description" : "With the power of welding, you fashioned some nails to an aluminum bat, giving it some serious power. You also took the opportunity to add some scrap metal to the bat, making it slightly heavier.",
 	"weight" : 955,
 	"to_hit" : 3,
@@ -195,7 +195,7 @@
 	"flags" : ["DURABLE_MELEE", "CHOP"],
 	"volume" : 8,
 	"bashing" : 22,
-	"cutting" : 8,
+	"cutting" : 12,
 	"price" : 17500
 	},
 	{
@@ -234,7 +234,7 @@
 	"type": "GUN",
 	"symbol": "(",
 	"color": "brown",
-	"description": "A nailgun that has been modified to hold and fire wooden splinters. Ready....Aim....",
+	"description": "A nailgun that has been modified to hold and fire wooden splinters.",
 	"name": "splintergun",
 	"price": 18000,
 	"material": ["plastic", "wood"],
@@ -410,8 +410,7 @@
 	"encumbrance" : 0,
 	"bashing" : 0,
 	"coverage" : 100,
-	"material_thickness" : 3,
-	"flags" : ["VARSIZE"]
+	"material_thickness" : 3
 	},
 	{
 	"type" : "ARMOR",
@@ -431,7 +430,7 @@
 	"warmth" : 6,
 	"phase" : "solid",
 	"environmental_protection" : 3,
-	"encumbrance" : 0,
+	"encumbrance" : 2,
 	"bashing" : 5,
 	"coverage" : 100,
 	"material_thickness" : 4,
@@ -487,7 +486,6 @@
 	"reversible": false,
 	"autolearn": true,
 	"qualities":[
-		{"id":"HAMMER","level":1,"amount":1},
 		{"id":"SAW_M_FINE","level":1,"amount":1}
 	],
 	"components": [
@@ -517,7 +515,7 @@
     },
 	{
 	"type" : "ARMOR",
-	"id" : "supershirt",
+	"id" : "etshirt",
 	"name" : "E&T shirt",
 	"weight" : 110,
 	"color" : "white",
@@ -541,7 +539,7 @@
 	},
 	{
 	"type" : "ARMOR",
-	"id" : "superpants",
+	"id" : "etpants",
 	"name" : "E&T pants",
 	"weight" : 450,
 	"color" : "brown",
@@ -642,7 +640,7 @@
 	"symbol": "(",
 	"color": "light_gray",
 	"name": "IP X-32",
-	"description": "The INTERPOL X-32 pistol was the standard sidearm of the International Police since its development in 2032.",
+	"description": "The INTERPOL X-32 pistol was adopted as the standard sidearm of the International Police at its release in 2032.",
 	"price": 175000,
 	"material": ["steel", "plastic"],
 	"skill": "pistol",
@@ -660,7 +658,7 @@
 	"burst": 3,
 	"clip_size": 12,
 	"reload": 225,
-	"valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "magazine", 2 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
+	"valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "magazine", 2 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
 	"flags": ["MODE_BURST"]
 	},
 	{
@@ -669,11 +667,11 @@
 	"symbol" : "/",
 	"color": "light_green",
 	"name": "spiky chitin sword",
-	"description": "Truly a fearsome creation, this chitin sword with attached bee stingers is a deadly weapon in the hands of trained professionals. And also in the hands of untrained professionals, provided that they like insects.",
+	"description": "Truly a fearsome creation, this chitin sword with attached bee stingers is a deadly weapon in the hands of trained professionals. And also in the hands of untrained professionals, provided that they like insects. And pretty much anyone else too.",
 	"material": "chitin",
 	"price": 5000,
 	"volume": 7,
-	"weight": 854,
+	"weight": 850,
 	"bashing": 3,
 	"cutting": 22,
 	"to_hit": 1,
@@ -743,7 +741,7 @@
 	},
 	{ 
 	"type":"GENERIC",
-    "id": "sword_spike",
+    "id": "bat_spike",
     "symbol" : "/",
     "color": "light_gray",
     "name": "spiky bat",
@@ -760,7 +758,7 @@
     },
     {
 	"type" : "recipe",
-	"result": "sword_spike",
+	"result": "bat_spike",
 	"category": "CC_WEAPON",
 	"subcategory": "CSC_WEAPON_BASHING",
 	"skill_used": "fabrication",
@@ -818,5 +816,123 @@
 			[ "bayonet", 1 ]
 		]
 	]
+	},
+	{
+	"type" : "ARMOR",
+	"id" : "rags_face",
+	"name" : "face rags",
+	"weight" : 220,
+	"color" : "dark_gray",
+	"covers" : ["HEAD", "MOUTH"],
+	"to_hit" : -2,
+	"storage" : 0,
+	"symbol" : "[",
+	"description" : "Rags that you can wrap around your face.",
+	"price" : 100,
+	"material" : "cotton",
+	"volume" : 1,
+	"cutting" : 0,
+	"warmth" : 8,
+	"phase" : "solid",
+	"environmental_protection" : 4,
+	"encumbrance" : 0,
+	"bashing" : -2,
+	"coverage" : 65,
+	"material_thickness" : 3
+	},
+	{
+	"type" : "recipe",
+	"result": "rags_face",
+	"category": "CC_ARMOR",
+	"subcategory": "CSC_ARMOR_HEAD",
+	"skill_used": "fabrication",
+	"difficulty": 1,
+	"time": 8000,
+	"reversible": true,
+	"autolearn": true,
+	"components": [
+		[
+			[ "rag", 2 ]
+		]
+	]
+	},
+	{
+    "type":"GENERIC",
+    "id" : "bone_bat",
+    "name" : "bone bat",
+    "description" : "A bat that has the striking part removed and replaced with a thigh bone. Ker-thwack!",
+    "weight" : 920,
+    "to_hit" : 2,
+    "color" : "dark_gray",
+    "symbol" : "/",
+    "material" : ["bone", "wood"],
+    "volume" : 3,
+    "bashing" : 18,
+    "cutting" : 0,
+    "flags" : ["BRUTAL"],
+    "price" : 4500
+    },
+	{
+	"type" : "recipe",
+	"result": "bone_bat",
+	"category": "CC_WEAPON",
+	"subcategory": "CSC_WEAPON_BASHING",
+	"skill_used": "fabrication",
+	"difficulty": 2,
+	"time": 6750,
+	"reversible": false,
+	"autolearn": true,
+	"components": [
+		[
+			[ "bone", 1 ]
+		],
+		[
+			[ "bat", 1]
+		]
+	]
+	},
+	{
+    "id": "smallcrowbar",
+    "type": "TOOL",
+    "symbol": ";",
+    "color": "dark_gray",
+    "name": "small crowbar",
+    "description": "This is a smaller-than-standard crowbar. Use it to open locked doors without destroying them or to lift manhole covers.  You could also wield it to bash some heads in.",
+    "price": 1100,
+    "material": "steel",
+    "weight": 300,
+    "volume": 2,
+    "bashing": 9,
+    "cutting": 1,
+    "to_hit": 1,
+    "max_charges": 0,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "turns_per_charge": 0,
+    "ammo": "NULL",
+    "revert_to": "null",
+    "use_action": "CROWBAR"
+	},
+	{
+    "id": "survivorcrowbar",
+    "type": "TOOL",
+    "symbol": ";",
+    "color": "dark_gray",
+    "name": "survivor crowbar",
+    "description": "This is a large crowbar with serrated edges. Use it to open locked doors without destroying them or to lift manhole covers.  You could also wield it to seriously bash some heads in.",
+    "price": 2100,
+    "material": "steel",
+    "weight": 550,
+    "volume": 5,
+    "bashing": 15,
+    "cutting": 9,
+    "to_hit": 2,
+    "max_charges": 0,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "turns_per_charge": 0,
+    "ammo": "NULL",
+    "revert_to": "null",
+    "use_action": "CROWBAR"
 	}
 ]
