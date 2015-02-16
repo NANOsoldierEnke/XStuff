@@ -3,7 +3,7 @@
         "type": "profession",
         "ident": "miner",
         "name": "Miner",
-        "description": "You worked in the mines before you immigrated to New England. Even though you couldn't find a job, you kept your pickaxe, flashlight, tool belt, and hardhat. Looks like they'll come in handy.",
+        "description": "You worked in the mines before you immigrated to New England. Even though you couldn't find a job, you kept your flashlight, tool belt, and hardhat. Looks like they'll come in handy.",
         "points": 2,
         "skills": [
             {
@@ -17,14 +17,13 @@
         ],
         "items": {
             "both": [
-				"pickaxe",
 				"hat_hard",
 				"flashlight",
 				"tool_belt",
 				"jeans",
 				"socks",
 				"boots",
-				"jacket_flannel"
+				"longshirt"
             ],
             "male": [
 				"briefs"
@@ -74,17 +73,13 @@
         "type": "profession",
         "ident": "cowboy",
         "name": "Cowboy",
-        "description": "You always wore a 10-Gallon hat, and now your trusty revolver might just save you from the zombies.",
+        "description": "You always wore a 10-Gallon hat, and now your trusty revolver might just save you from the zombies. \"And ain't no sidewindin', bushwhackin', hornswagglin', cracker crooger gonna ruin my biscuit cutter!\"",
         "points": 3,
         "skills": [
             {
                 "level": 3,
                 "name": "pistol"
-            },
-			{
-				"level": 1,
-				"name": "driving"
-			}
+            }
         ],
         "items": {
             "both": [
@@ -94,7 +89,6 @@
 				"boots",
 				"cowboy_hat",
 				"sw_619",
-				"knife_combat",
 				"canteen",
 				"38_special"
             ],
@@ -111,11 +105,11 @@
         "type": "profession",
         "ident": "racecardriver",
         "name": "Race Car Driver",
-        "description": "Although you weren't a pro, you always won against the regulars at the local track.",
+        "description": "Although you weren't a pro, you always won against the regulars at the local track, and those driving and mechanics skills will surely be useful in a world devoid of functioning mechanics.",
         "points": 2,
         "skills": [
             {
-                "level": 6,
+                "level": 5,
                 "name": "driving"
             },
 			{
@@ -125,7 +119,6 @@
         ],
         "items": {
             "both": [
-				"helmet_bike",
 				"jumpsuit",
 				"wrench",
 				"textbook_mechanics",
@@ -149,7 +142,6 @@
         "points": 3,
 		"CBMs": [
 			"bio_blaster",
-			"bio_blood_anal",
 			"bio_batteries",
 			"bio_power_storage_mkII"
 		],
@@ -159,14 +151,14 @@
                 "name": "dodge"
             },
 			{
-				"level": 2,
+				"level": 3,
 				"name": "electronics"
 			}
         ],
         "items": {
             "both": [
 				"tshirt",
-				"pants_cargo",
+				"jeans",
 				"socks",
 				"sneakers"
             ],
@@ -189,11 +181,7 @@
             {
                 "level": 3,
                 "name": "mechanics"
-            },
-			{
-				"level": 1,
-				"name": "carpentry"
-			}
+            }
         ],
         "items": {
             "both": [
@@ -201,8 +189,7 @@
 				"hat_hard",
 				"socks",
 				"boots_rubber",
-				"gloves_rubber",
-				"wrench"
+				"gloves_rubber"
             ],
             "male": [
 				"briefs"
@@ -228,7 +215,7 @@
         "items": {
             "both": [
 				"army_top",
-				"pants_cargo",
+				"b_shorts",
 				"socks",
 				"sneakers"
             ],
@@ -243,8 +230,7 @@
 		"CBMs": [
 			"bio_batteries",
 			"bio_power_storage_mkII",
-			"bio_hydraulics",
-			"bio_armor_torso"
+			"bio_hydraulics"
 		]
 	},
 	{
@@ -252,7 +238,7 @@
         "ident": "daredevil",
         "name": "Daredevil",
         "description": "You always had to get that rush of adrenaline, and you just couldn't keep away from danger. You'll be getting plenty of adrenaline now.",
-        "points": 1,
+        "points": 2,
         "skills": [
             {
                 "level": 1,
@@ -286,7 +272,7 @@
         "ident": "bartender",
         "name": "Bartender",
         "description": "You owned a small bar, and you loved your job. Now that your cash flow has stopped, you may begin to take desperate measures. Do zombies like booze?",
-        "points": 0,
+        "points": -1,
         "skills": [
             {
                 "level": 1,
@@ -315,7 +301,7 @@
         "type": "profession",
         "ident": "roleplayer",
         "name": "Roleplayer",
-        "description": "Maybe you'll happen across a +5 tommy gun of zombie slaying.",
+        "description": "All you know is that you'd really like to be having a word with the GM of the universe. Convince him to remove some of the zombies or at least give you a head start, you know?",
         "points": -1,
         "skills": [
             {
@@ -360,9 +346,7 @@
 				"armor_scrapsuit",
 				"armguard_metal",
 				"legguard_metal",
-				"helmet_skid",
-				"boots",
-				"zweihander"
+				"boots"
             ],
             "male": [
 				"briefs"
@@ -391,7 +375,6 @@
         ],
         "items": {
             "both": [
-				"katana",
 				"wakizashi",
 				"armor_samurai",
 				"boots"
@@ -410,7 +393,7 @@
         "ident": "terminator",
         "name": "T-1000",
         "description": "The Schwarzenegger-ization of the Cataclysm is now complete.",
-        "points": 3,
+        "points": 4,
         "skills": [
             {
                 "level": 4,
@@ -432,6 +415,7 @@
 				"pants_army",
 				"socks",
 				"sneakers",
+				"tshirt",
 				"jacket_leather"
             ]
         },
@@ -448,7 +432,7 @@
         "ident": "bguard",
         "name": "Bionic Guard",
         "description": "You beat out the competition with a set of bionic enhancements, making employers practically fall over themselves to hire you. Equipped with the latest in bionic and security technology, you were prepared to handle any criminal. Unfortunately, your job description didn't include zombies.",
-        "points": 3,
+        "points": 4,
         "skills": [
             {
                 "level": 2,
@@ -461,7 +445,7 @@
         ],
         "items": {
             "both": [
-				"usp_9mm",
+				"interpol_9mm",
 				"9mm",
 				"jacket_light",
 				"pants",
@@ -492,20 +476,6 @@
         "name": "Average Joe",
         "description": "What chance could some normal guy have in this hellhole of a world? Luckily for you, you managed to grab some household items as you fled.",
         "points": 0,
-        "skills": [
-            {
-                "level": 1,
-                "name": "carpentry"
-            },
-			{
-				"level": 1,
-				"name": "melee"
-			},
-			{
-				"level": 1,
-				"name": "gun"
-			}
-        ],
         "items": {
             "both": [
 				"bat",
@@ -528,7 +498,7 @@
         "ident": "flasher",
         "name": "Flasher",
         "description": "Anytime you try to flash a zombie, he almost eats your brains. It's probably wise to not get close enough to attempt to flash them, anyway.",
-        "points": -1,
+        "points": -2,
         "items": {
             "both": [
 				"trenchcoat",
