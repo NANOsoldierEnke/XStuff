@@ -20,7 +20,7 @@
 	"volume" : 1,
 	"bashing" : -4,
 	"cutting" : 0,
-	"time" : 30,
+	"time" : 20,
 	"fun" : 0,
 	"skill" : "fabrication",
 	"price" : 1000,
@@ -84,7 +84,7 @@
 	"subcategory": "CSC_WEAPON_BASHING",
 	"skill_used": "fabrication",
 	"difficulty": 0,
-	"time": 2000,
+	"time": 8000,
 	"reversible": false,
 	"autolearn": true,
 	"qualities":[
@@ -160,7 +160,7 @@
 	"skill_used": "fabrication",
 	"skills_required": [ "gun", 2 ],
 	"difficulty": 3,
-	"time": 2500,
+	"time": 3500,
 	"reversible": false,
 	"autolearn": false,
 	"book_learn": [[ "notebook_nail", 1 ]],
@@ -206,7 +206,7 @@
 	"skill_used": "fabrication",
 	"skills_required": [[ "mechanics", 2 ], [ "fabrication", 2 ]],
 	"difficulty": 1,
-	"time": 2500,
+	"time": 12500,
 	"reversible": false,
 	"autolearn": false,
 	"book_learn": [[ "notebook_nail", 1]],
@@ -293,7 +293,7 @@
 	"skill_used": "fabrication",
 	"skills_required": [ "fabrication", 1 ],
 	"difficulty": 1,
-	"time": 15000,
+	"time": 10000,
 	"reversible": false,
 	"autolearn": true,
 	"qualities" : [
@@ -482,7 +482,7 @@
 	"subcategory" : "CSC_AMMO_OTHER",
 	"skill_used": "fabrication",
 	"difficulty": 1,
-	"time": 10000,
+	"time": 8000,
 	"reversible": false,
 	"autolearn": true,
 	"qualities":[
@@ -585,7 +585,7 @@
 	"subcategory": "CSC_WEAPON_CUTTING",
 	"skill_used": "fabrication",
 	"difficulty": 2,
-	"time": 5000,
+	"time": 20000,
 	"reversible": false,
 	"autolearn": true,
 	"qualities":[
@@ -603,20 +603,21 @@
     "symbol": "/",
     "color": "white",
     "name": "PVC spear",
-    "description": "A short spear made from sharpened PVC pipe.",
+    "description": "A spear made from sharpened PVC pipe.",
     "price": 5000,
     "material": "plastic",
     "weight": 431,
     "volume": 7,
     "bashing": 5,
     "cutting": 18,
-    "to_hit": 1
+    "to_hit": 1,
+	"flags": ["STAB"]
 	},
 	{
 	"type" : "recipe",
 	"result": "pvc_spear",
 	"category": "CC_WEAPON",
-	"subcategory": "CSC_WEAPON_CUTTING",
+	"subcategory": "CSC_WEAPON_PIERCING",
 	"skill_used": "fabrication",
 	"difficulty": 2,
 	"time": 4000,
@@ -627,7 +628,8 @@
 	],
 	"components": [
 		[
-			[ "pvc", 2 ]
+			[ 
+			"pvc", 2 ]
 		],
 		[
 			[ "duct_tape", 30 ]
@@ -685,7 +687,7 @@
 	"subcategory": "CSC_WEAPON_CUTTING",
 	"skill_used": "fabrication",
 	"difficulty": 3,
-	"time": 2500,
+	"time": 4500,
 	"reversible": false,
 	"autolearn": true,
 	"qualities":[
@@ -727,7 +729,7 @@
 	"subcategory": "CSC_WEAPON_CUTTING",
 	"skill_used": "fabrication",
 	"difficulty": 1,
-	"time": 2500,
+	"time": 8500,
 	"reversible": false,
 	"autolearn": true,
 	"qualities":[
@@ -763,11 +765,12 @@
 	"subcategory": "CSC_WEAPON_BASHING",
 	"skill_used": "fabrication",
 	"difficulty": 1,
-	"time": 6550,
+	"time": 9000,
 	"reversible": false,
 	"autolearn": true,
 	"qualities":[
-		{"id":"HAMMER","level":1,"amount":1}
+		{"id":"HAMMER","level":1,"amount":1},
+		{"id":"CUT","level":1,"amount":1}
 	],
 	"components": [
 		[
@@ -806,7 +809,8 @@
 	"reversible": false,
 	"autolearn": true,
 	"qualities":[
-		{"id":"SAW_M_FINE","level":1,"amount":1}
+		{"id":"CUT","level":1,"amount":1},
+		{"id":"HAMMER","level":1,"amount":1}
 	],
 	"components": [
 		[
@@ -882,6 +886,9 @@
 	"time": 6750,
 	"reversible": false,
 	"autolearn": true,
+	"qualities":[
+		{"id":"CUT","level":1,"amount":1}
+		],
 	"components": [
 		[
 			[ "bone", 1 ]

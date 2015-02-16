@@ -26,8 +26,9 @@
 	"items":[
 		["pvc", 5],
 		["enketoken", 1],
-		["critmedictoken", 2],
-		["slaxtoken", 2]
+		["critmedictoken", 1],
+		["slaxtoken", 1],
+		["devtoken", 1]
 	]
 	},
 	{
