@@ -24,7 +24,7 @@
 	"type" : "item_group",
 	"id" : "road",
 	"items":[
-		["pvc", 5],
+		["pvc", 15],
 		["enketoken", 1],
 		["critmedictoken", 1],
 		["slaxtoken", 1],
@@ -50,10 +50,10 @@
 	"type" : "item_group",
 	"id" : "survivorweapons",
 	"items":[
-		["survivorcrowbar", 10],
+		["survivorcrowbar", 6],
 		["nailball", 18],
 		["nailshot", 14],
-		["splintergun", 12]
+		["splintergun", 8]
 	]
 	}
 ]
